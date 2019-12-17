@@ -36,7 +36,7 @@ public class RecipeModel {
             return strMealThumb;
         }
 
-        public String getIdMeal() {
+        String getIdMeal() {
             return idMeal;
         }
     }
