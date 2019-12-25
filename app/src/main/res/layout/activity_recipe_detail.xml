@@ -20,7 +20,6 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/recipe_image"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/recipe_image_height"
                 android:scaleType="centerCrop"
@@ -54,7 +53,6 @@
                         android:textSize="@dimen/recipe_publisher_text_size" />
 
                     <TextView
-                        android:id="@+id/recipe_name"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="8"
@@ -85,7 +83,6 @@
                         android:textSize="@dimen/recipe_publisher_text_size" />
 
                     <TextView
-                        android:id="@+id/recipe_category"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="8"
@@ -116,7 +113,6 @@
                         android:textSize="@dimen/recipe_publisher_text_size" />
 
                     <TextView
-                        android:id="@+id/recipe_area"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="8"
@@ -147,7 +143,6 @@
                         android:textSize="@dimen/recipe_publisher_text_size" />
 
                     <TextView
-                        android:id="@+id/recipe_tags"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="8"
@@ -178,7 +173,6 @@
                         android:textSize="@dimen/recipe_publisher_text_size" />
 
                     <TextView
-                        android:id="@+id/recipe_instructions"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="8"
